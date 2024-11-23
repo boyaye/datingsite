@@ -1,0 +1,83 @@
+   
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+main{
+    width: 100%;
+}
+
+.firstheader{
+    border: 1px solid red;
+    height: 600px;
+}
+.firstnav {
+    
+  width: 100%;
+  border: 0px solid black;
+  display: flex;
+  justify-content: space-between;
+align-items: center; 
+
+}
+.firstnav input{
+    display: none;
+}
+span:before{
+    content: "Log in";
+    font-size: 30px;
+   position: relative;
+   right: 5px;
+}
+
+.firstnav h1{font-style: italic;
+}
+
+.firstnav .fa-bars{
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+img{
+    width: 40px;
+
+}
+
+.firstnav a{
+    background: transparent;
+    display: flex;
+    border: 0px solid black;
+    width: 200px;
+    padding: 5px;
+    align-items: center;
+}
+.firstheader{
+    background-image: url("./pexels-anh-nguyen-517648218-29504314.jpg");
+    background-size:cover;
+    position: relative;
+    bottom:50px;
+    z-index:-1;
+}
+
+.bottondiv{
+    position: relative;
+ bottom: 200px;
+    border: 0px solid red;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.bottondiv button{
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+}
+.bottondiv .buttonone{
+    background-color: coral;
+    color: white;
+}
