@@ -13,7 +13,7 @@ main{
     width: 100%;
 }
 /* first header with the logo and login*/
-.firstheader{
+#firstheader{
     background-color: rgb(70, 83, 79);
     border: 0px solid red;
     height:600px;
@@ -65,8 +65,38 @@ img{
 }
 
 /* main page picture slide show */
-.firstheader{
+.slideimage{
+ 
+}
+#firstheader{
     background-image: url("./pexels-anh-nguyen-517648218-29504314.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom:50px;
+    height: 650px;
+    z-index:-1;
+}
+#secondheader{
+    background-image: url("./pexels-jorge-fakhouri-filho-861811-2701660.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom:50px;
+    height: 650px;
+    z-index:-1;
+}
+#thirdheader{
+    background-image: url("./pexels-pnw-prod-8377494.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom:50px;
+    height: 650px;
+    z-index:-1;
+}
+#fouthheader{
+    background-image: url("./pexels-pixabay-414032.jpg");
     background-size:contain;
     background-repeat: no-repeat;
     position: relative;
