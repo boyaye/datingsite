@@ -165,7 +165,7 @@ bottom: 300px;
 
 .bottondiv{
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
     text-align: center;
     position: relative;
     border: 0px solid red;
@@ -177,6 +177,23 @@ bottom: 300px;
     background-image: url("./pexels-cottonbro-4009036.jpg");
     background-size: cover;
     background-repeat: no-repeat; 
+}
+
+.bottondiv p {
+   font-size: 13px;
+    margin-top: 40px;
+    padding: 0px 10px;
+
+}
+.bottondiv  u{
+    text-decoration: underline; 
+    text-decoration-color: rgb(249, 249, 250);
+}
+
+.bottondiv  u:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(223, 85, 5);
+ 
 }
 
 
@@ -217,4 +234,42 @@ bottom: 300px;
  color: rgb(250, 242, 242);
  width: 80%;
  margin: auto;
+}
+
+/* detials div words*/
+.detailsdiv{
+    border: 0px solid black;
+    background-color: rgb(250, 187, 12);
+    text-align: center;
+    padding: 2px;
+    padding-bottom: 10px;
+   
+}
+
+.detailsdiv h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.picturedive{
+    border: 4px solid black;
+    height: 220px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 10px auto;
+}
+.picturedive img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.joinnowfirstbutton button{
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    color: rgb(250, 187, 12);
+    background-color: rgb(247, 237, 226);
 }
