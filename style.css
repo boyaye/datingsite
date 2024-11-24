@@ -4,14 +4,19 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  
+
 }
 main{
     width: 100%;
 }
 /* first header with the logo and login*/
 .firstheader{
+    background-color: rgb(70, 83, 79);
     border: 1px solid rgb(49, 8, 201);
-    height:600px;
+    height:800px;
 }
 .firstnav {
     
@@ -57,16 +62,36 @@ img{
 /* main page picture slide show */
 .firstheader{
     background-image: url("./pexels-anh-nguyen-517648218-29504314.jpg");
-    background-size:cover;
+    background-size:contain;
+    background-repeat: no-repeat;
     position: relative;
     bottom:50px;
     z-index:-1;
 }
 
+.pagemaintro{
+    text-align: center;
+margin:80% auto;
+    border: 0px solid black;
+    width: 95%;
+    font-style: italic;
+    font-size: 20px;
+}
+.pagemaintro .fa-certificate{
+    color: rgb(47, 115, 241);
+}
+
+.pagemaintro .fa-check{
+    font-size: 12px;
+    position: relative;
+    right: 15px;
+    bottom: 3px;
+}
+
 .bottondiv{
     text-align: center;
     position: relative;
- bottom: 300px;
+ bottom: 350px;
     border: 0px solid red;
     display: flex;
     gap: 10px;
@@ -106,7 +131,7 @@ img{
     align-items: center;
     font-size: 15px;
  background: transparent;
- border-color: azure;
+ border-color: rgb(245, 243, 241);
  border-width: 3px;
- color: white;
+ color: rgb(247, 245, 245);
 }
