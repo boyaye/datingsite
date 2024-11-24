@@ -15,11 +15,12 @@ main{
 /* first header with the logo and login*/
 .firstheader{
     background-color: rgb(70, 83, 79);
-    border: 1px solid rgb(49, 8, 201);
+    border: 0px solid red;
     height:800px;
+    padding: 1px;
 }
 .firstnav {
-    
+ 
   width: 100%;
   border: 0px solid black;
   display: flex;
@@ -35,14 +36,17 @@ align-items: center;
     font-size: 30px;
    position: relative;
    right: 5px;
+   color: rgb(245, 135, 61);
 }
 
 .firstnav h1{font-style: italic;
+    color:white;
 }
 
 .firstnav .fa-bars{
     font-size: 30px;
     padding-right: 10px;
+    color: rgb(194, 85, 12);
 }
 
 img{
@@ -57,6 +61,7 @@ img{
     width: 200px;
     padding: 5px;
     align-items: center;
+  
 }
 
 /* main page picture slide show */
@@ -76,6 +81,15 @@ margin:80% auto;
     width: 95%;
     font-style: italic;
     font-size: 20px;
+}
+.titlemessagediv{
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+.pagemaintro .titlemessage{
+    font-size: 35px;
+    text-align:center;
+    line-height: 40px;
 }
 .pagemaintro .fa-certificate{
     color: rgb(47, 115, 241);
@@ -100,7 +114,7 @@ margin:80% auto;
  bottom: 300px;
     border: 0px solid red;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-direction: column;
     width: 100%;
     margin: auto;
@@ -109,6 +123,7 @@ margin:80% auto;
     background-repeat: no-repeat;
     
 }
+
 
 .bottondiv button{
     padding: 8px;
