@@ -11,6 +11,7 @@
 }
 main{
     width: 100%;
+   
 }
 /* first header with the logo and login*/
 #firstheader{
@@ -148,6 +149,19 @@ bottom: 300px;
     font-size: 15px;
     color:white;
 }
+/* secured and safe information */
+.securesite{
+    border: 0px solid black;
+    padding: 15px;
+    margin-top: -265px;
+    display: flex;
+    gap: 38%;
+    background-color: rgb(205, 247, 247);
+}
+
+.securesite img{
+    width: 30%;
+}
 
 .bottondiv{
   padding-top: 20px;
@@ -162,9 +176,7 @@ bottom: 300px;
     margin:0 auto;
     background-image: url("./pexels-cottonbro-4009036.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: -300px;
-    
+    background-repeat: no-repeat; 
 }
 
 
