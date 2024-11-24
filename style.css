@@ -16,7 +16,7 @@ main{
 .firstheader{
     background-color: rgb(70, 83, 79);
     border: 0px solid red;
-    height:800px;
+    height:600px;
     padding: 1px;
 }
 .firstnav {
@@ -71,18 +71,23 @@ img{
     background-repeat: no-repeat;
     position: relative;
     bottom:50px;
+    height: 650px;
     z-index:-1;
 }
 
 .pagemaintro{
     text-align: center;
-margin:80% auto;
+margin:auto;
+position: relative;
+bottom: 300px;
     border: 0px solid black;
     width: 95%;
     font-style: italic;
     font-size: 20px;
+    padding: 5px;
 }
 .titlemessagediv{
+    
     margin-bottom: 30px;
     padding-top: 40px;
 }
@@ -90,6 +95,7 @@ margin:80% auto;
     font-size: 35px;
     text-align:center;
     line-height: 40px;
+    color: rgb(247, 211, 211);
 }
 .pagemaintro .fa-certificate{
     color: rgb(47, 115, 241);
@@ -111,16 +117,16 @@ margin:80% auto;
   padding-bottom: 10px;
     text-align: center;
     position: relative;
- bottom: 300px;
     border: 0px solid red;
     display: flex;
     gap: 20px;
     flex-direction: column;
     width: 100%;
-    margin: auto;
+    margin:0 auto;
     background-image: url("./pexels-cottonbro-4009036.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: -300px;
     
 }
 
