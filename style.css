@@ -286,10 +286,11 @@ bottom: 300px;
 
 .seconddetailsection .secondimagediv{
     border: 0px solid blue;
-    width: 80%;
+    width: 90%;
     margin: 25px auto;
     height: 400px;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px rgb(253, 218, 172)
     
 }
 .seconddetailsection .secondimagediv img{
@@ -332,4 +333,10 @@ bottom: 300px;
 #splashword{
     color: rgb(230, 158, 3);
    font-style: italic;
+}
+
+mark{
+    background-color: rgb(250, 187, 12) ;
+    padding: 2px;
+    border-radius:10px;
 }
