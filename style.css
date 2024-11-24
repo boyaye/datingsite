@@ -8,10 +8,10 @@
 main{
     width: 100%;
 }
-
+/* first header with the logo and login*/
 .firstheader{
-    border: 1px solid red;
-    height: 600px;
+    border: 1px solid rgb(49, 8, 201);
+    height:600px;
 }
 .firstnav {
     
@@ -25,7 +25,7 @@ align-items: center;
 .firstnav input{
     display: none;
 }
-span:before{
+.logindiv:before{
     content: "Log in";
     font-size: 30px;
    position: relative;
@@ -53,6 +53,8 @@ img{
     padding: 5px;
     align-items: center;
 }
+
+/* main page picture slide show */
 .firstheader{
     background-image: url("./pexels-anh-nguyen-517648218-29504314.jpg");
     background-size:cover;
@@ -62,8 +64,9 @@ img{
 }
 
 .bottondiv{
+    text-align: center;
     position: relative;
- bottom: 200px;
+ bottom: 300px;
     border: 0px solid red;
     display: flex;
     gap: 10px;
@@ -75,9 +78,35 @@ img{
 .bottondiv button{
     padding: 8px;
     border-radius: 50px;
-    border: none;
+    
 }
-.bottondiv .buttonone{
+.bottondiv .buttonemail{
     background-color: coral;
+    color: rgb(248, 243, 243);
+    border: none;
+   
+    font-size: 18px;
+    
+}
+
+#ordiv{
     color: white;
+    font-size: 20px;
+}
+
+.bottondiv img{
+    width: 20px;
+   position: relative;
+   right:8px;
+}
+
+.bottondiv .together{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+ background: transparent;
+ border-color: azure;
+ border-width: 3px;
+ color: white;
 }
