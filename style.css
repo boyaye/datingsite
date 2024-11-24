@@ -65,6 +65,8 @@ img{
   
 }
 
+
+
 /* main page picture slide show */
 
 #firstheader{
@@ -156,7 +158,7 @@ bottom: 300px;
     margin-top: -265px;
     display: flex;
     gap: 38%;
-    background-color: rgb(205, 247, 247);
+    background-color: white;
 }
 
 .securesite img{
@@ -288,7 +290,7 @@ bottom: 300px;
     border: 0px solid blue;
     width: 90%;
     margin: 25px auto;
-    height: 400px;
+    height: 450px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px grey, -5px -5px 5px rgb(253, 218, 172)
     
@@ -340,3 +342,45 @@ mark{
     padding: 2px;
     border-radius:10px;
 }
+
+/* sectiondetialsthree div three section */
+
+.sectiondetialsthree{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    background-color: rgb(250, 187, 12);
+    overflow: auto;
+    white-space: nowrap;
+   
+    
+ 
+}
+.sectiondetialsthree .successstorydiv{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    background-color: rgb(247, 241, 241);
+    border: 1px solid white;
+    height: 360px ;
+  
+   padding: 5px;
+   margin-left: 300px;  
+   
+    
+    
+}
+
+.sectiondetialsthree .successstorydiv li{
+    color: black;
+    border: 1px solid black;
+  width: 200px;
+    background-color: aqua;
+   
+   
+    
+  
+}
+
