@@ -11,7 +11,7 @@ function slideshow(){
     slideshowimage[i].style.display = "none"
    }
    slideshowimage[slideindex-1].style.display = "block"
-   setTimeout(slideshow, 3000)
+   setTimeout(slideshow, 4000)
 }
 slideshow()
 
