@@ -87,17 +87,27 @@ margin:80% auto;
     right: 15px;
     bottom: 3px;
 }
+#messagesafe{
+    font-size: 15px;
+    color: rgb(163, 183, 201);
+}
 
 .bottondiv{
+  padding-top: 20px;
+  padding-bottom: 10px;
     text-align: center;
     position: relative;
- bottom: 350px;
+ bottom: 300px;
     border: 0px solid red;
     display: flex;
     gap: 10px;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     margin: auto;
+    background-image: url("./pexels-cottonbro-4009036.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .bottondiv button{
@@ -109,8 +119,9 @@ margin:80% auto;
     background-color: coral;
     color: rgb(248, 243, 243);
     border: none;
-   
+   width: 80%;
     font-size: 18px;
+    margin: auto;
     
 }
 
@@ -131,7 +142,9 @@ margin:80% auto;
     align-items: center;
     font-size: 15px;
  background: transparent;
- border-color: rgb(245, 243, 241);
+ border-color: rgb(253, 252, 251);
  border-width: 3px;
- color: rgb(247, 245, 245);
+ color: rgb(250, 242, 242);
+ width: 80%;
+ margin: auto;
 }
