@@ -39,9 +39,17 @@ display: none;
 .firstnav Label:before{
     content: "Log in";
     font-size: 20px;
+    font-weight: bold;
    position: relative;
    right: 5px;
    color:var(--main-color);
+   display: none;
+
+}
+
+label{
+    display: flex;
+ 
 }
 
 
