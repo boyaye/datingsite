@@ -7,8 +7,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
   
-
+    --main-color: rgb(240, 87, 16);
+    --yellow-design:rgb(250, 187, 12);
 }
+
+
 main{
     width: 100%;
    
@@ -29,16 +32,18 @@ main{
 align-items: center; 
 
 }
+
 .firstnav input{
-    display: none;
+display: none;
 }
-.logindiv:before{
+.firstnav Label:before{
     content: "Log in";
-    font-size: 30px;
+    font-size: 20px;
    position: relative;
    right: 5px;
-   color: rgb(245, 135, 61);
+   color:var(--main-color);
 }
+
 
 .firstnav h1{font-style: italic;
     color:white;
@@ -47,7 +52,7 @@ align-items: center;
 .firstnav .fa-bars{
     font-size: 30px;
     padding-right: 10px;
-    color: rgb(194, 85, 12);
+   color:var(--main-color)
 }
 
 img{
@@ -63,6 +68,11 @@ img{
     padding: 5px;
     align-items: center;
   
+}
+.firstnav a h1{
+    font-size: 20px;
+    color: rgb(240, 87, 16);
+    margin-left: -6px;
 }
 
 
@@ -206,7 +216,7 @@ bottom: 300px;
     
 }
 .bottondiv .buttonemail{
-    background-color: coral;
+    background-color:var(--yellow-design);
     color: rgb(248, 243, 243);
     border: none;
    width: 80%;
@@ -326,12 +336,15 @@ bottom: 300px;
     width: 30%;
     font-size: 20px;
     color: rgb(248, 248, 246);
-    background-color:rgb(250, 187, 12) ;
-    border-radius: 10px;
+    background-color: var(--yellow-design);
+    border-radius: 15px;
     margin-left: 5%;
     margin-top: 3%;
     border-width: 1px;
+    padding: 7px;
+    border: none;
 }
+
 #splashword{
     color: rgb(230, 158, 3);
    font-style: italic;
