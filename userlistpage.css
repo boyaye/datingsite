@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family:monospace;
+    list-style: none;
+    
 }
 
 /* first nav bar */
@@ -35,6 +36,7 @@ right: 10px;
     top: 10px;
     padding: 2px;
 user-select: none;
+font-family:monospace;
 
 }
 .navfirstdiv a {
@@ -58,7 +60,7 @@ sub{
 .userimage{
     border: 3px solid  rgb(30, 147, 194);
     width: 80px;
-    height: 70px;
+    height: 80px;
     border-radius: 50%;
     
 }
@@ -78,7 +80,7 @@ sub{
 
 .liveinfo{
     background-color: rgb(30, 147, 194);
-    padding: 2px;
+    padding: 1px 4px;
     border-radius: 10px;
     color:rgb(250, 235, 235);
     position: relative;
@@ -96,11 +98,78 @@ sub{
  scrollbar-width: none;
 }
 
+/* user profile search bar */
+.profilesandlive{
+    margin-top: 15px;
+display: flex;
+justify-content: space-between;
+}
 
+.profilesandlive button{
+    width: 48%;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px ;
+    border: 1px solid rgb(201, 199, 199);
+}
+.mainuserdiv ol{
+    display: flex;
+    justify-content: space-between;
+}
+.mainuserdiv li{
+    border: 1px solid rgb(202, 198, 198);
+    
+    width: 48%;
+    height: 400px;
 
+}
 
+.detialsimagediv{
+    border: 1px solid rgb(173, 171, 171);
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("./pexels-italo-melo-881954-2379004.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.detialsimagedivone{
+    border: 1px solid rgb(116, 114, 114);
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("./pexels-vinicius-wiesehofer-289347-1130626.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+/* user verification on profile */
+.firstverifiedprofile{
+    padding: 8px;
+    display: flex;
+align-items: center;
+    gap: 5px;
 
-
+}
+.logoimagediv{
+ 
+    border: 0px solid black;
+    width: 10%;
+    height: 20px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: white;
+}
+.mainverifysign .fa-solid{
+ font-size: 20px;
+ color: rgb(8, 101, 223);
+}
+.mainverifysign .fa-check{
+    position: relative;
+    right: 15px;
+    bottom: 2px;
+    font-size: 12px;
+    color: white;
+}
+.logoimagediv img{
+    width: 100%;
+}
 
 
 
@@ -108,3 +177,4 @@ sub{
 body{
     background-color: rgb(221, 221, 218);
 }
+
