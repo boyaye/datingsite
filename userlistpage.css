@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    scrollbar-width: none;
     
 }
 
@@ -95,7 +96,7 @@ sub{
  white-space: nowrap;
  border: 0px solid black;
  padding: 10px;
- scrollbar-width: none;
+
 }
 
 /* user profile search bar */
@@ -111,36 +112,35 @@ justify-content: space-between;
     border-radius: 10px 10px 0px 0px ;
     border: 1px solid rgb(201, 199, 199);
 }
+/* main userdiv */
 .mainuserdiv ol{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .mainuserdiv li{
     border: 1px solid rgb(202, 198, 198);
-    
     width: 48%;
-    height: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+
 
 }
 
-.detialsimagediv{
-    display: flex;
-    flex-direction: column;
-    gap: 70%;
-    border: 1px solid rgb(173, 171, 171);
+
+.userimageprofiledisplay {
+    border: 0px solid black;
+    position: relative;
+    bottom: 42px;
     height: 250px;
-    border-radius: 10px 10px 0px 0px;
-    background-image: url("./pexels-italo-melo-881954-2379004.jpg");
-    background-size:contain;
-    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px ;
+    z-index: -1;
+
 }
-.detialsimagedivone{
-    border: 1px solid rgb(116, 114, 114);
-    height: 250px;
-    border-radius: 10px 10px 0px 0px;
-    background-image: url("./pexels-vinicius-wiesehofer-289347-1130626.jpg");
-    background-size:contain;
-    background-repeat: no-repeat;
+.userimageprofiledisplay .thisimage{
+    width: 100%;
+    height: 100%;
+   border-radius: 10px 10px 0px 0px ; 
 }
 /* user verification on profile */
 .firstverifiedprofile{
@@ -176,19 +176,24 @@ align-items: center;
 .like-icon{
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10%;
     justify-content: center;
     border: 0px solid black;
-    height: 40px;
     position: relative;
-    top: 10px;
+   bottom: 60px;
+}
+/* complete user detials */
+.compeleuserinfo{
+    border: 0px solid black;
+    margin-top: -75px;
+
 }
 .lovelikedive{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 0px solid rgb(218, 8, 8);
-    height: 25px;
+    height: 27px;
     width: 15%;
     border-radius: 50%;
     font-size: 15px;
@@ -201,7 +206,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
     border: 0px solid rgb(218, 8, 8);
-    height: 35px;
+    height: 36px;
     width: 20%;
     border-radius: 50%;
     font-size: 22px;
@@ -214,7 +219,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
     border: 0px solid rgb(218, 8, 8);
-    height: 35px;
+    height: 36px;
     width: 20%;
     border-radius: 50%;
     font-size: 22px;
@@ -234,8 +239,8 @@ align-items: center;
 .userageandliveindicator{
     display: flex;
 align-items: center;
-gap: 25%;
-    margin: 10px 0px 5px;
+justify-content: space-between;
+    margin: 10px 10px 5px -2px;
 }
 .userinformation h1{
 
@@ -264,6 +269,37 @@ gap: 25%;
 .userinformation .fa-location-dot{
     color: blue;
 }
+
+
+/* about me detials */
+
+.detialsaboutme{
+    border: 0px solid black;
+    height: 70px;
+    overflow: hidden;
+    padding: 2px 2px;
+}
+
+.detialsaboutme .aboutmetitle{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 0px solid black;
+    width: 50%;
+    border-radius: 5px 5px 0px 0px;
+    padding: 3px;
+    background-image: linear-gradient(rgb(238, 122, 27),rgb(193, 27, 226));
+    color: white;
+
+}
+
+.detialsaboutme p{
+    
+}
+
+
+
+
+
 body{
     background-color: rgb(221, 221, 218);
 }
