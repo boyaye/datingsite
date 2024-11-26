@@ -6,10 +6,17 @@
 }
 
 /* first nav bar */
+.firstnavbar{
+padding:10px;
+border-bottom: 0px solid black;
+box-shadow: 2px 2px 5px rgb(184, 181, 181);
+background-color: rgb(248, 243, 243);
+
+}
 .firstnavbar .navfirstdiv{
     display: flex;
   justify-content: space-between;
-    border: 1px solid black;
+    border: 0px solid black;
     padding: 5px;
     font-size: 20px;
 
@@ -21,13 +28,17 @@
 position: relative;
 right: 10px;
     border: 0px solid black;
-    background-color: red;
+    background-color: rgb(235, 49, 49);
     color: white;
     border-radius: 5px;
     font-size: 15px;
     top: 10px;
     padding: 2px;
+user-select: none;
 
+}
+.navfirstdiv a {
+    color: rgb(51, 47, 47);
 
 }
 
@@ -36,6 +47,55 @@ sub{
     bottom: 5px;
 
 }
+
+/* first user header */
+.firstuserheader{
+    border: 0px solid black;
+ 
+
+}
+
+.userimage{
+    border: 3px solid  rgb(30, 147, 194);
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+
+.userimage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.listuserface{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px solid black;
+    width: 400px;
+}
+
+.liveinfo{
+    background-color: rgb(30, 147, 194);
+    padding: 2px;
+    border-radius: 10px;
+    color:rgb(250, 235, 235);
+    position: relative;
+    top: 10px;
+}
+
+.firstuserheader .onunderlist{
+  display: flex;
+  gap: 10px;
+ flex-direction: row;
+ overflow: auto;
+ white-space: nowrap;
+ border: 0px solid black;
+ padding: 10px;
+ scrollbar-width: none;
+}
+
 
 
 
