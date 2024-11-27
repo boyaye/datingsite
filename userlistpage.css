@@ -106,11 +106,39 @@ display: flex;
 justify-content: space-between;
 }
 
-.profilesandlive button{
+.profilesandlive label{
     width: 48%;
-    padding: 5px;
+    padding:0px 0px 0px 20px;
     border-radius: 10px 10px 0px 0px ;
-    border: 1px solid rgb(201, 199, 199);
+    border-bottom: 0px solid rgb(201, 199, 199);
+    background-color: transparent;
+    font-size:20px ;
+
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+}
+.profilesandlive .moresearchimage{
+    border: 0px solid black;
+    height: 30px;
+    width: 10%;
+   padding: 0px 13px;
+
+}
+.profilesandlive img{
+    width: 100%;
+    height:100%;
+   
+}
+
+input{
+    display: none;
+}
+
+.profilesandlive:checked +label{
+    content: "LiveBroadcast";
 }
 /* main userdiv */
 .mainuserdiv ol{
