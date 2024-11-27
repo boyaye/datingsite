@@ -51,6 +51,11 @@ sub{
 
 }
 /* main profile slide picture */
+.firstageinfochilddiv{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+}
 .mainpicturediv{
     border: 0px solid red;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -58,24 +63,52 @@ sub{
 
 .agepicturediv {
     display: flex;
-    gap: 2px;
-    align-items: center;
+    gap: 15px;
+    align-items:center;
+    border: 0px solid black;
+    position: relative;
+    right: 8%;
 }
 .ageinfodive{
     display: flex;
     align-items: center;
     padding: 5px;
-    gap: 15px;
     border: 0px solid black;
     height: 40px;
+ 
   
+}
+.agecameradive{
+    display: flex;
+    align-items: center;
 }
 
 .ageinfodive .userage{
     font-weight: 300;
 }
 .ageinfodive .fa-camera{
-    color: rgb(13, 123, 248);
+    position: relative;
+    top: 6px;
+    color: rgb(73, 189, 20);
+}
+.verifytag{
+    border: 0px solid black;
+    position: relative;
+    padding-left: 10px;
+   
+ 
+}
+
+.verifytag .fa-certificate{
+    font-size: 25px;
+    color: rgb(9, 176, 218);
+}
+.verifytag .fa-check{
+    position: relative;
+    right: 24px;
+    bottom: 3px;
+    font-size: 15px;
+    color:white;
 }
 .profileimageslidediv{
     border: 0px solid black;
