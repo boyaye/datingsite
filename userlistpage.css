@@ -170,7 +170,7 @@ input{
 .userimageprofiledisplay {
     border: 0px solid black;
     position: relative;
-    bottom: 45px;
+    bottom: 44px;
     height: 250px;
     border-radius: 10px 10px 0px 0px ;
     z-index: -1;
@@ -355,7 +355,8 @@ color: rgb(54, 52, 52);
     width: 50%;
     border-radius: 5px 5px 0px 0px;
     padding: 3px;
-    background-image: linear-gradient(rgb(238, 122, 27),rgb(250, 187, 12));
+background-image: linear-gradient(rgb(230, 19, 159),rgb(252, 133, 202));
+ 
     color: white;
 
 }
