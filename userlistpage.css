@@ -125,7 +125,7 @@ justify-content: space-between;
 }
 
 hr{
-    width: 90%;
+    width: 100%;
     margin: auto;
     color: rgb(119, 118, 118);
     
@@ -263,6 +263,7 @@ align-items: center;
     background-color: white;
     color: rgb(245, 193, 52);
     box-shadow: 2px 2px 5px gray;
+    padding: 5px 3px;
 }
 .lovelikedivetwo{
     display: flex;
@@ -276,6 +277,7 @@ align-items: center;
     background-color: white;
  color: rgb(14, 196, 228);
     box-shadow: 2px 2px 5px gray;
+    padding: 5px 3px;
 }
 .lovelikedivethree{
     display: flex;
@@ -289,6 +291,7 @@ align-items: center;
     background-color: white;
     color: rgb(230, 19, 159);
     box-shadow: 2px 2px 5px gray;
+    padding: 5px 3px;
 }
 
 
