@@ -219,7 +219,7 @@ align-items: center;
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(58, 55, 55);
-    font-size: 15px;
+    font-size: 12px;
 }
 .gallarydiv{
     display: flex;
@@ -228,7 +228,7 @@ align-items: center;
     border: 0px solid black;
   height: 200px;
   margin-top: 10px;
-  margin-bottom: 100px;
+margin-bottom: 20px;
 }
 
 #separation{
@@ -290,4 +290,82 @@ align-items: center;
     position: relative;
     left: 20px;
     bottom: 30%;
+}
+
+/* interest userinterest */
+
+.interestdive{
+    border: 1px solid white;
+    margin-bottom: 100px;
+ 
+}
+.interestdive h1{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(32, 30, 30);
+}
+
+.interestdive li{
+    text-align: center;
+    border: 0px solid black;
+    width: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.fashiondiv{
+    border: 0px solid black;
+    height: 60px;
+    width: 100%;
+    border-radius: 50%;
+}
+.fashiondiv{
+    display: flex;
+
+   justify-content: center;
+   align-items: center;
+
+}
+.fashiondiv i{
+    font-size: 25px;
+}
+
+.interestdive ul{
+   border: 0px solid black;
+   margin: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(236, 233, 233);
+}
+
+#fashion{
+    background-color: rgb(218, 107, 218);
+    color: white;
+}
+
+#games{
+    background-color: green;
+    color: white;
+}
+
+#movies{
+    background-color: rgb(45, 45, 99);
+    color: white;
+}
+#Sport{
+    background-color: rgb(67, 219, 67);
+    color: white;
+}
+#traveling{
+   background-color: rgb(53, 53, 250); 
+   color: white;
+}
+
+#vacation{
+    background-color: yellowgreen;
+    color: white;
 }
