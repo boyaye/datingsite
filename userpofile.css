@@ -85,7 +85,7 @@ align-items: center;
 .ageinfodive{
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 8px;
     border: 0px solid black;
     height: 40px;
  
@@ -125,7 +125,7 @@ align-items: center;
 }
 .profileimageslidediv{
     border: 0px solid black;
-    height: 500px;
+    height: 550px;
     border-radius: 10px;
  
 }
@@ -146,8 +146,8 @@ align-items: center;
 .buttonmessagediv button{
     width: 40%;
     margin-top: 4%;
-    padding: 7px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 20px;
     border-width: 1px;
     border: none;
     
@@ -155,6 +155,12 @@ align-items: center;
 #followbutton{
     color: white;
     background-color: rgb(55, 130, 228);
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
     
 }
 
@@ -162,21 +168,45 @@ align-items: center;
     position: relative;
     right: 7px;
     color: white;
+ 
 }
 #messagebutton{
-    background-color: rgb(247, 65, 65)
-    ;
+    background-color: rgb(247, 65, 65);
+    
 }
 
+#messagebutton #messagebuttonmessage{
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}
 
 #chatbutton{
-    background-color: pink;
+    background-color: rgb(248, 158, 173);
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
 }
 
 #videocallebutton{
     background-color: rgb(97, 196, 97);
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
 }
 
 #likebutton{
     background-color: rgb(238, 117, 197);
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
 }
