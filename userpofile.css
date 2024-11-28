@@ -84,7 +84,6 @@ align-items: center;
 }
 .ageinfodive{
     display: flex;
-    align-items: center;
     padding: 8px;
     border: 0px solid black;
     height: 40px;
@@ -156,6 +155,7 @@ align-items: center;
     color: white;
     background-color: rgb(55, 130, 228);
     display: flex;
+    align-items: center;
     gap: 5px;
     justify-content: center;
     color: white;
@@ -184,6 +184,7 @@ align-items: center;
 #chatbutton{
     background-color: rgb(248, 158, 173);
     display: flex;
+    align-items: center;
     gap: 5px;
     justify-content: center;
     color: white;
@@ -194,6 +195,7 @@ align-items: center;
 #videocallebutton{
     background-color: rgb(97, 196, 97);
     display: flex;
+    align-items: center;
     gap: 5px;
     justify-content: center;
     color: white;
@@ -204,9 +206,88 @@ align-items: center;
 #likebutton{
     background-color: rgb(238, 117, 197);
     display: flex;
+    align-items: center;
     gap: 5px;
     justify-content: center;
     color: white;
     font-size: 15px;
     font-weight: bolder;
+}
+
+/* user gallery div */
+.galleryheadingdiv{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 55, 55);
+    font-size: 15px;
+}
+.gallarydiv{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    border: 0px solid black;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+#separation{
+    width: 95%;
+    margin:10px auto;
+}
+
+.together{
+    border-radius: 20px;
+    border: 1px solid rgb(126, 122, 122);
+    height: 100%;
+    width: 30%;
+    position: relative;
+    
+}
+.together img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+.together h1{
+    font-size: 18px;
+}
+.videogallarydiv img{
+    filter: blur(0.7px);
+}
+
+.privategallary img{
+    filter: blur(3px);
+}
+.picturegallarydiv img{
+    filter: blur(1px);
+}
+
+.galleryinfo{
+    display: flex;
+    gap: 5px;
+}
+
+.galleryinfo p{
+    font-weight: bold;
+    color: rgb(80, 79, 79);
+}
+
+.galleryinfo .fa-photo-film{
+    color: rgb(26, 138, 26);
+}
+.galleryinfo .fa-camera{
+    color: rgb(13, 34, 156);
+}
+.galleryinfo .fa-youtube{
+    color: rgb(201, 17, 26);
+}
+
+
+.userinfogallerydiv{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    left: 20px;
+    bottom: 30%;
 }
