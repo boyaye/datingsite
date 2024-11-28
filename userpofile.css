@@ -11,6 +11,11 @@ body{
     background-color: rgb(209, 207, 207);
 }
 
+main{
+    border: 0px solid black;
+margin: 0;
+}
+
 /* first nav bar */
 .firstnavbar{
 padding:10px;
@@ -223,12 +228,13 @@ align-items: center;
 }
 .gallarydiv{
     display: flex;
-    gap: 3%;
+gap: 5px;
     justify-content: center;
     border: 0px solid black;
   height: 200px;
   margin-top: 10px;
 margin-bottom: 20px;
+padding:0px 10px;
 }
 
 #separation{
@@ -297,6 +303,7 @@ margin-bottom: 20px;
 .interestdive{
     border: 1px solid white;
     margin-bottom: 30px;
+    border-radius: 10px;
  
 }
 .interestdive h1{
@@ -374,6 +381,7 @@ margin-bottom: 20px;
 
 .aboutmedetialsection{
     border: 1px solid white;
+    border-radius: 10px;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
