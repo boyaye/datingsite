@@ -35,7 +35,7 @@ background-color: rgb(248, 243, 243);
   justify-content:space-around;
   align-items: center;
     border: 0px solid black;
-    padding: 5px;
+    padding: 10px;
     font-size: 20px;
 
     
@@ -86,7 +86,7 @@ align-items: center;
 }
 .mainpicturediv{
     position: relative;
-    top: 45px;
+    top: 58px;
     border: 0px solid red;
 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -398,7 +398,18 @@ padding:0px 10px;
     background-color: yellowgreen;
     color: white;
 }
-
+#cooked{
+    background-color: rgb(216, 48, 48);
+    color: azure;
+}
+#music{
+    color: white;
+    background-color: rgb(45, 177, 253);
+}
+#booked{
+    background-color: brown;
+    color: white;
+}
 /* details section about me */
 
 .aboutmedetialsection{
