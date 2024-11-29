@@ -427,8 +427,8 @@ table{
 
 td,th{
     border-bottom: 1px solid rgb(252, 248, 248);
-    padding: 5px;
-    background-color: rgb(207, 203, 203); 
+    padding: 10px;
+    background-color: rgb(223, 221, 221); 
     font-weight: 100;
     border-collapse: collapse;
 }
@@ -440,3 +440,10 @@ td,th{
 th{
     display: flex;
 }
+
+.tablesectiondive .fa-solid,.fa-brands ,.fa-regular{
+    position: relative;
+    right: 3%;
+    color: rgb(58, 52, 52);
+}
+
