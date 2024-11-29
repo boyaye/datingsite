@@ -427,10 +427,11 @@ table{
 
 td,th{
     border-bottom: 1px solid rgb(252, 248, 248);
-    padding: 10px;
+    padding: 15px;
     background-color: rgb(223, 221, 221); 
     font-weight: 100;
     border-collapse: collapse;
+   
 }
 
 .secondtablecell{
@@ -444,6 +445,56 @@ th{
 .tablesectiondive .fa-solid,.fa-brands ,.fa-regular{
     position: relative;
     right: 3%;
-    color: rgb(58, 52, 52);
+ 
 }
+
+table{
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 10px;
+}
+.fa-house{
+    color: green;
+}
+
+.fa-briefcase{
+    color: brown;
+}
+
+.fa-school{
+    color: rgb(60, 60, 141);
+}
+
+.fa-language{
+    color: rgb(236, 94, 42);
+}
+.fa-graduation-cap{
+    color: rgb(241, 64, 64);
+}
+.fa-moon{
+    color: rgb(100, 204, 245);
+}
+.fa-heart{
+    color: red;
+}
+.fa-child{
+    color: purple;
+}
+.fa-face-kiss-wink-heart{
+    color: rgb(248, 171, 4);
+}
+.fa-joint{
+    color: rgb(248, 52, 52);
+}
+.fa-martini-glass-citrus{
+    color: rgb(7, 135, 209);
+}
+.fa-hands-praying{
+    color: rgb(127, 202, 15);
+
+}
+.fa-fingerprint{
+    color: cadetblue;
+}
+
+
 
