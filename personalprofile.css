@@ -172,6 +172,37 @@
         height: 100%;
         border-radius: 50%;
     }
+    /* name info div */
+    .nameinfodiv{
+        position: relative;
+        bottom: 30px;
+        border: 0px solid black;
+        display: flex;
+        gap: 2%;
+       justify-content: center;
+       align-items: center;
+       
+
+    }
+
+    .nameinfodiv h4{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .fa-camera{
+        color: blue;
+    }
+
+    .fa-id-card{
+        color: green;
+    }
+
+    /* second div section */
+    .seconddivsection{
+        border: 1px solid black;
+        height: 250px;
+    }
     
 
 
