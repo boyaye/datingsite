@@ -7,7 +7,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 /* header first div nav div */
@@ -224,20 +225,23 @@
 
     /* second div section */
     .seconddivsection{
-        border: px solid black;
-        height: 250px;
+        border-top: 1px solid rgb(204, 202, 202);
+        border-top-left-radius: 500px;
+        border-top-right-radius: 500px  ;
+       box-shadow: -2px -2px 3px rgb(245, 188, 188);
        
         
     }
     
 .profileinfodiv{
+    
     border: 1px solid rgb(207, 206, 206);
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 15%;
     width: 80%;
-    margin: auto;
+    margin:10px auto;
     border-radius: 20px;
     padding: 3px;
     box-shadow: 3px 3px 5px rgb(209, 207, 207),-3px -3px  5px rgb(223, 222, 222);
