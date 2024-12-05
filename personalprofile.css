@@ -307,3 +307,38 @@ bottom: 5px;
     position: relative;
     top: 30%;
 }
+
+/* footer div */
+.footerdiv{
+    margin-top: 30%;
+    border-top: 0px solid rgb(143, 140, 140);
+    box-shadow: -3px -3px 5px rgb(216, 213, 213);
+padding:5%;
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+input{
+    display: none;
+}
+.footerdiv i:hover{
+    color: red;
+}
+
+.fa-backward-step{
+    color: blue;
+}
+.fa-magnifying-glass-location{
+    color: green;
+}
+
+.fa-bolt-lightning{
+    color: rgb(236, 108, 16);
+}
+
+.fa-signal-messenger{
+    color: rgb(51, 165, 236);
+}
