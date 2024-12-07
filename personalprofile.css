@@ -14,6 +14,8 @@
 /* header first div nav div */
 
     .firstheader{
+        position: fixed;
+        top: 0;
         width: 100%;
         margin: auto;
         border: 0px solid black;
@@ -314,7 +316,11 @@ bottom: 5px;
 
 main{
 border: 0px solid black;
-margin-bottom: 50%;
+margin-top: 30%;
+
+}
+body{
+    overflow: none;
 }
 .footerdiv{
 position: fixed;
